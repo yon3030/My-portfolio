@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "name": "Nong Tuong",
+    "title": "Nong Tuong - FullStack Developer",
+    "description": "I develop accessible, responsive, interactive, and animated websites with a strong focus on performance.",
+    "locale": "VN"
+  },
+  "personal": {
+    "name": "Nong Tuong",
+    "surname": "Nong",
+    "role": "FullStack Developer",
+    "experience": 7,
+    "email": "jason1025yon@gmail.com",
+    "city": "Cau Giay",
+    "country": "Vietnam",
+    "username": "@nongTuong",
+    "resumeURL": "https://drive.google.com/file/d/1ttRhcomOrBf-OPebl01Bl_YQXVUJ67h9/view?usp=sharing"
+  },
+  "social": {
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "",
+    "github": "https://github.com/yon3030",
+    "codepen": ""
+  },
+  "content": {
+    "verse": "Whoever sows sparingly will also reap sparingly, and whoever sows generously will also reap generously. [2 Cor. 9:6]"
+  }
+}
