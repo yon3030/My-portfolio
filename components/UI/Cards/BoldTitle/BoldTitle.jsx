@@ -65,7 +65,7 @@ export default function BoldTitle() {
                     <span className={styles.boldTitleRight} ref={boldTitleRight}>Developer</span>
                 </h2>
                 <TextReveal className={`${styles.paragraph} ${styles.paragraphAlt}`}>
-                    Currently, I live in Cau Giay, Vietnam.
+                    Currently, I live in Whitehorse, Yukon, Canada.
                 </TextReveal>
 
                 <Blobs type={'v3'} classVariable={styles.blob} />

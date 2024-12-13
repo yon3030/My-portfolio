@@ -59,16 +59,16 @@ export default function Footer() {
 
                 <div className={styles.bottom} ref={footerBottom}>
                     <Logo classVariable={styles.badge}></Logo>
-                    <div className={styles.copyright}>&copy; {currentYear} Nong Tuong
+                    <div className={styles.copyright}>&copy; {currentYear} Nazariy Romanskiy
                         <br/>
                         Powered by&nbsp;
                         Vercel,&nbsp;
                         Next.js, and &nbsp;
                         <Link href="https://github.com/yon3030">GitHub</Link>.
                         <br/>
-                        {`${commonConfig.personal.city},  ${currentTime}`}&nbsp;
-                        •&nbsp;
-                        <WeatherAPI></WeatherAPI>
+                        {/* {`${commonConfig.personal.city},  ${currentTime}`}&nbsp; */}
+                        {/* •&nbsp; */}
+                        {/* <WeatherAPI></WeatherAPI> */}
                     </div>
                     <div className={styles.verse}>{commonConfig.content.verse}</div>
                 </div>

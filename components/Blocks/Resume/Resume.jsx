@@ -49,10 +49,10 @@ export default function Resume() {
                     <div className={styles.cardGroup} ref={cardGroup}>
                         <div className={`${styles.card} ${styles.cardV1}`}>
                             <div className={styles.cardInner}>
-                                <div className={styles.cardTitle}>Nong Tuong</div>
+                                <div className={styles.cardTitle}>Nazariy Romanskiy</div>
                                 <div className={styles.cardDesc}>Senior FullStack Developer</div>
                                 <hr/>
-                                <p>I am Nong Tuong, a senior fullStack developer with over 7 years of professional experience.
+                                <p>I am Nazariy Romanskiy, a senior fullStack developer with over 8 years of professional experience.
                                     Successfully building user-friendly websites with ReactJS & NextJS. I pay attention
                                     to
                                     small details, enjoy technical problems, and work well in teams. I like learning new
@@ -67,10 +67,11 @@ export default function Resume() {
                                 <hr/>
                                 <div className={styles.cardSectionTitle}>WORK EXPERIENCE</div>
                                 <p>
-                                    Senior FullStack Developer | Newwave Solutions <br/>
-                                    UI & FullStack Developer | TPS Software Corporation <br/>
-                                    Frontend Developer | Enlab Software Company <br/>
-                                    FullStack Developer | TECHVIFY Software | Global AI & Software Development Company
+                                    FullStack Developer | SellerBoard Ecommerce Website <br/>
+                                    UI & Frontend Developer | Westcottage Ecommerce Website <br/>
+                                    FullStack Developer | Stantec <br/>
+                                    FullStack Developer | Tetra Tech Inc. <br/>
+                                    Frontend Developer | WSP <br/>
                                 </p>
                             </div>
                         </div>

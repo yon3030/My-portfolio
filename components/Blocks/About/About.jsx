@@ -18,7 +18,7 @@ export default function About() {
                         Passionate FullStack Developer
                     </Title>
                     <TextReveal className={styles.description}>
-                        I would describe myself as a creative web developer with over 7 years of experience in development.
+                        I would describe myself as a creative web developer with over 8 years of experience in development.
                     </TextReveal>
                 </header>
 
@@ -45,7 +45,7 @@ export default function About() {
             <div className={styles.grid}>
                 <header className={styles.header}>
                     <TextReveal className={styles.description}>
-                        I live in Cau Giay. 
+                        I live in Whitehorse, Yukon, Canada. 
                     </TextReveal>
                 </header>
                 <ParallaxImage src={"/gallery/IMG_20231225_165326.jpg"} alt={`An image`} width={800} height={1200} className={styles.figure} />

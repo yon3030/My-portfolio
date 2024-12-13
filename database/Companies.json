@@ -1,8 +1,8 @@
 [
   {
     "position": "Senior FullStack Developer",
-    "company": "Newwave Solutions",
-    "duration": "January 2022 - September 2023",
+    "company": "SellerBoard Ecommerce Website",
+    "duration": "January 2023 - September 2024",
     "location": "Remote",
     "image": "/company/tentwenty.svg",
     "url": "https://www.tentwenty.me/",
@@ -22,8 +22,8 @@
   },
   {
     "position": "UI & FE Developer",
-    "company": "TPS Software Corporation",
-    "duration": "May 2018 - January 2022",
+    "company": "Westcottage Ecommerce Website",
+    "duration": "June 2023 - November 2024",
     "location": "Remote",
     "image": "/company/denge-bilgisayar.svg",
     "url": "httsp://denge.com.tr/",
@@ -41,9 +41,9 @@
   },
   {
     "position": "FullStack Developer",
-    "company": "Enlab Software Company",
-    "duration": "April 2017 - May 2018",
-    "location": "Remote",
+    "company": "Stantec",
+    "duration": "December 2020 - November 2022",
+    "location": "Whitehorse, Yukon, Canada",
     "image": "/company/agency-look.svg",
     "url": "https://look.agency/",
     "responsibilities": [
@@ -59,9 +59,27 @@
   },
   {
     "position": "FullStack Developer",
-    "company": "TECHVIFY Software | Global AI & Software Development Company",
+    "company": "Tetra Tech Inc.",
+    "duration": "January 2018 - October 2020",
+    "location": "Whitehorse, Yukon, Canada",
+    "image": "/company/softanka.svg",
+    "url": "https://www.playanka.com/",
+    "responsibilities": [
+      "Web App Development Services",
+      "Our secure, high-performance, user-friendly web application development services serve businesses worldwide.",
+      "TECHVIFY uses the power of modern web app frameworks to create high-quality, scalable, progressive digital solutions for websites, enterprise systems, and web portals."
+    ],
+    "color": {
+      "h": "210",
+      "s": "0%",
+      "l": "90%"
+    }
+  },
+  {
+    "position": "Frontend Developer",
+    "company": "WSP",
     "duration": "January 2016 - March 2017",
-    "location": "Remote",
+    "location": "Whitehorse, Yukon, Canada",
     "image": "/company/softanka.svg",
     "url": "https://www.playanka.com/",
     "responsibilities": [
