@@ -3,7 +3,8 @@
     "name": "Nazariy Romanskiy",
     "title": "Nazariy Romanskiy - FullStack Developer",
     "description": "I develop accessible, responsive, interactive, and animated websites with a strong focus on performance.",
-    "locale": "VN"
+    "locale": "en-CA",
+    "timeZone": "America/Whitehorse"
   },
   "personal": {
     "name": "Nazariy",

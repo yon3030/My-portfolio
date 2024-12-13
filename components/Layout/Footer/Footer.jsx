@@ -25,17 +25,25 @@ export default function Footer() {
     const currentYear = getCurrentYear();
     const skeleton = useRef(null);
     const [currentTime, setCurrentTime] = useState('');
+    
     useEffect(() => {
-        // Get current time in Cau Giay (PST) on the client side
-        const timeZone = commonConfig.metadata.timeZone;
-        const clientTime = new Date().toLocaleString(commonConfig.metadata.locale, {
-            timeZone: timeZone,
-            hour: 'numeric',
-            minute: 'numeric',
-            hour12: true,
-            timeZoneName: 'short'
-        });
-        setCurrentTime(clientTime);
+        const updateTime = () => {
+            const timeZone = commonConfig.metadata.timeZone;
+            const clientTime = new Date().toLocaleString(commonConfig.metadata.locale, {
+                timeZone: timeZone,
+                hour: 'numeric',
+                minute: 'numeric',
+                hour12: true,
+                timeZoneName: 'short'
+            });
+            setCurrentTime(clientTime);
+        };
+
+        // Update immediately and then every minute
+        updateTime();
+        const interval = setInterval(updateTime, 60000);
+
+        return () => clearInterval(interval);
     }, []);
 
 
@@ -66,9 +74,9 @@ export default function Footer() {
                         Next.js, and &nbsp;
                         <Link href="https://github.com/yon3030">GitHub</Link>.
                         <br/>
-                        {/* {`${commonConfig.personal.city},  ${currentTime}`}&nbsp; */}
-                        {/* •&nbsp; */}
-                        {/* <WeatherAPI></WeatherAPI> */}
+                        {`${commonConfig.personal.city},  ${currentTime}`}&nbsp;
+                        •&nbsp;
+                        <WeatherAPI></WeatherAPI>
                     </div>
                     <div className={styles.verse}>{commonConfig.content.verse}</div>
                 </div>
